@@ -1,0 +1,26 @@
+This package contains a number of bitmap fonts that are 
+useful in situations like terminal programs.
+
+The -misc-fixed family of fonts (4x6 - 10x20.bdf) are taken
+from the ucs-fonts package (an updated version of the
+misc-fixed fonts from the X distribution.)
+ 
+ http://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html
+
+Most of these fonts are in the public domain; others
+are under the X license. Copyright information where
+applicable can be found in the .bdf files.
+
+The Lucida fonts are also derived from the X distribution.
+The file LU_LEGALNOTICE is the license that applies to the
+original versions of these fonts.
+
+The fangongti16.bdf fangongti24.bdf are merges of the
+Fangosong ti fonts, and the Sony 8x16/12x24 fonts of
+the same size to get full ASCII coverage. The licenses
+of these fonts can be found in the .bdf files.
+
+Owen Taylor <otaylor@redhat.com>
+June 27 2002
+August 28 2002
+January 21 2003
