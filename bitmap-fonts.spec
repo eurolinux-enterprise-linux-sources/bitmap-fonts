@@ -7,7 +7,7 @@ terminals.
 
 Name: bitmap-fonts
 Version: 0.3
-Release: 20%{?dist}
+Release: 21%{?dist}
 License: GPLv2 and MIT and Lucida
 Source0: bitmap-fonts-%{version}.tar.bz2
 Source1: fixfont-3.5.tar.bz2
@@ -146,6 +146,9 @@ done
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.3-21
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.3-20
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
